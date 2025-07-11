@@ -1,6 +1,6 @@
-name: Meeting Request
-description: Create a new meeting request (recurring or one-time)
-title: "Meeting Request"
+name: Create a Meeting
+description: Create a new meeting (recurring or one-time)
+title: "call name | call # | call date"
 labels: ["meeting"]
 assignees: []
 
@@ -8,18 +8,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form to create a new meeting request. This can be used for both recurring and one-time meetings.
+        e.g. "All Core Devs - Consensus (ACDC) #161, July 24 2025"
+        Use this form to create a new meeting. This can be used for both recurring and one-time meetings.
         
         **Note:** The zoom link will be sent to the facilitator via email.
-
-  - type: input
-    id: meeting_title
-    attributes:
-      label: Meeting Title
-      description: Full meeting title (e.g., "All Core Devs - Execution (ACDE) #206, February 27, 2025")
-      placeholder: "All Core Devs - Execution (ACDE) #206, February 27, 2025"
-    validations:
-      required: true
 
   - type: input
     id: meeting_date
