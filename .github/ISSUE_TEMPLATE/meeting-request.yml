@@ -114,36 +114,19 @@ body:
       required: false
 
   - type: checkboxes
-    id: already_zoom_meeting
+    id: meeting_options
     attributes:
-      label: Already have a Zoom meeting ID
-      description: "Set to true if you bring your own link. WARNING: the bot will not create a zoom ID, summary, or YouTube video. Make sure your zoom link meeting is auto recording."
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: already_on_calendar
-    attributes:
-      label: Already on Ethereum Calendar
-      description: "Set to true if this meeting is already on the Ethereum public calendar (will not create calendar event)"
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: need_youtube_stream
-    attributes:
-      label: Need YouTube stream links
-      description: "Set to false if you don't want YouTube stream links created (only applies to recurring meetings)"
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: display_zoom_in_invite
-    attributes:
-      label: Display zoom link in invite
-      description: "Set to true to add the Zoom link to the Google Calendar invite description"
-    validations:
-      required: false
+      label: Meeting Options
+      description: Configure additional options for this meeting
+      options:
+        - label: "Already have a Zoom meeting ID"
+          description: "Set to true if you bring your own link. WARNING: the bot will not create a zoom ID, summary, or YouTube video. Make sure your zoom link meeting is auto recording."
+        - label: "Already on Ethereum Calendar"
+          description: "Set to true if this meeting is already on the Ethereum public calendar (will not create calendar event)"
+        - label: "Need YouTube stream links"
+          description: "Set to false if you don't want YouTube stream links created (only applies to recurring meetings)"
+        - label: "Display zoom link in invite"
+          description: "Set to true to add the Zoom link to the Google Calendar invite description"
 
   - type: markdown
     attributes:
