@@ -1,0 +1,96 @@
+name: Meeting Request with Dropdowns
+description: Test with optional dropdowns
+title: "Meeting Request with Dropdowns"
+labels: ["meeting"]
+assignees: []
+
+body:
+  - type: input
+    id: meeting_title
+    attributes:
+      label: Meeting Title
+      description: Full meeting title
+      placeholder: "All Core Devs - Execution (ACDE) #206, February 27, 2025"
+    validations:
+      required: true
+
+  - type: input
+    id: meeting_date
+    attributes:
+      label: Meeting Date and Time (UTC)
+      description: Date and time in UTC format
+      placeholder: "Jan 16, 2025, 14:00 UTC"
+    validations:
+      required: true
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+      description: List the agenda items for this meeting
+      placeholder: "Agenda point 1, Agenda point 2, Agenda point n"
+    validations:
+      required: true
+
+  - type: textarea
+    id: facilitator_emails
+    attributes:
+      label: Facilitator Emails
+      description: Comma-separated list of facilitator email addresses
+      placeholder: "facilitator1@example.com, facilitator2@example.com"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: meeting_type
+    attributes:
+      label: Meeting Type
+      description: Is this a recurring or one-time meeting?
+      options:
+        - "One-time meeting"
+        - "Recurring meeting"
+    validations:
+      required: true
+
+  - type: input
+    id: duration_minutes
+    attributes:
+      label: Duration (minutes)
+      description: How long will this meeting last?
+      placeholder: "60"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: call_series
+    attributes:
+      label: Call Series
+      description: Which call series does this meeting belong to? (Only applies to recurring meetings)
+      options:
+        - "acde"
+        - "acdc"
+        - "acdt"
+        - "l2interop"
+        - "rpc"
+        - "stateless"
+        - "epbs"
+        - "maxeb"
+        - "focil"
+        - "simulate"
+        - "ethproofs"
+        - "beam"
+        - "other"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: occurrence_rate
+    attributes:
+      label: Occurrence Rate
+      description: How often does this recurring meeting occur? (Only applies to recurring meetings)
+      options:
+        - "weekly"
+        - "bi-weekly"
+        - "monthly"
+    validations:
+      required: false 
