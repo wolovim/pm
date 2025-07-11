@@ -24,7 +24,7 @@ body:
     attributes:
       label: Agenda
       description: List the agenda items for this meeting
-      placeholder: "Agenda point 1, Agenda point 2, Agenda point n"
+      placeholder: "- Agenda point 1\n- Agenda point 2\n- Agenda point n"
     validations:
       required: true
 
