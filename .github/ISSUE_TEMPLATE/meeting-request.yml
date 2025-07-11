@@ -28,21 +28,28 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: facilitator_emails
-    attributes:
-      label: Facilitator Emails
-      description: Comma-separated list of facilitator email addresses
-      placeholder: "facilitator1@example.com, facilitator2@example.com"
-    validations:
-      required: true
-
   - type: textarea
     id: other_comments
     attributes:
       label: Other Comments and Resources
       description: Any additional comments, resources, or notes for this meeting
       placeholder: "Additional information, links, or resources for the meeting"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ### 🤖 Config
+        
+        The following fields configure how the meeting automation bot should handle this meeting:
+
+  - type: input
+    id: facilitator_emails
+    attributes:
+      label: Facilitator Emails
+      description: Comma-separated list of facilitator email addresses (zoom link will be sent here)
+      placeholder: "facilitator1@example.com, facilitator2@example.com"
 
   - type: dropdown
     id: meeting_type
@@ -59,7 +66,7 @@ body:
     id: duration_minutes
     attributes:
       label: Duration (minutes)
-      description: How long will this meeting last?
+      description: How long will this meeting last? (Used for calendar event duration)
       placeholder: "60"
     validations:
       required: true
@@ -67,8 +74,8 @@ body:
   - type: dropdown
     id: call_series
     attributes:
-      label: Call Series
-      description: Which call series does this meeting belong to? (Only applies to recurring meetings)
+      label: Call Series (Recurring meetings only)
+      description: Which call series does this meeting belong to? This helps organize recurring meetings and puts them in the correct YouTube playlist.
       options:
         - "acde"
         - "acdc"
