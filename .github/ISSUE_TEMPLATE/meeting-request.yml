@@ -1,0 +1,147 @@
+name: Meeting Request
+description: Create a new meeting request (recurring or one-time)
+title: "Meeting Request"
+labels: ["meeting"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to create a new meeting request. This can be used for both recurring and one-time meetings.
+        
+        **Note:** The zoom link will be sent to the facilitator via email.
+
+  - type: input
+    id: meeting_title
+    attributes:
+      label: Meeting Title
+      description: Full meeting title (e.g., "All Core Devs - Execution (ACDE) #206, February 27, 2025")
+      placeholder: "All Core Devs - Execution (ACDE) #206, February 27, 2025"
+    validations:
+      required: true
+
+  - type: input
+    id: meeting_date
+    attributes:
+      label: Meeting Date and Time (UTC)
+      description: Date and time in UTC format with link to savvytime.com or timeanddate.com
+      placeholder: "Jan 16, 2025, 14:00 UTC"
+      value: "[Jan 16, 2025, 14:00 UTC](https://savvytime.com/converter/utc/jan-16-2025/2pm)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+      description: List the agenda items for this meeting
+      placeholder: |
+        - Agenda point 1
+        - Agenda point 2
+        - Agenda point n
+    validations:
+      required: true
+
+  - type: textarea
+    id: facilitator_emails
+    attributes:
+      label: Facilitator Emails
+      description: Comma-separated list of facilitator email addresses
+      placeholder: "facilitator1@example.com, facilitator2@example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other_comments
+    attributes:
+      label: Other Comments and Resources
+      description: Any additional comments, resources, or notes for this meeting
+      placeholder: "Additional information, links, or resources for the meeting"
+
+  - type: dropdown
+    id: meeting_type
+    attributes:
+      label: Meeting Type
+      description: Is this a recurring or one-time meeting?
+      options:
+        - "One-time meeting"
+        - "Recurring meeting"
+    validations:
+      required: true
+
+  - type: input
+    id: duration_minutes
+    attributes:
+      label: Duration (minutes)
+      description: How long will this meeting last?
+      placeholder: "60"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: call_series
+    attributes:
+      label: Call Series
+      description: Which call series does this meeting belong to? (Only applies to recurring meetings)
+      options:
+        - "acde"
+        - "acdc"
+        - "acdt"
+        - "l2interop"
+        - "rpc"
+        - "stateless"
+        - "epbs"
+        - "maxeb"
+        - "focil"
+        - "simulate"
+        - "ethproofs"
+        - "beam"
+        - "other"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: occurrence_rate
+    attributes:
+      label: Occurrence Rate
+      description: How often does this recurring meeting occur? (Only applies to recurring meetings)
+      options:
+        - "weekly"
+        - "bi-weekly"
+        - "monthly"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: meeting_options
+    attributes:
+      label: Meeting Options
+      description: Configure additional options for this meeting
+      options:
+        - label: "Already have a Zoom meeting ID"
+          description: "Set to true if you bring your own link. WARNING: the bot will not create a zoom ID, summary, or YouTube video. Make sure your zoom link meeting is auto recording."
+        - label: "Already on Ethereum Calendar"
+          description: "Set to true if this meeting is already on the Ethereum public calendar (will not create calendar event)"
+        - label: "Need YouTube stream links"
+          description: "Set to false if you don't want YouTube stream links created (only applies to recurring meetings)"
+        - label: "Display zoom link in invite"
+          description: "Set to true to add the Zoom link to the Google Calendar invite description"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤖 Bot Configuration
+        
+        The following configuration will be automatically generated based on your selections above:
+        
+        ```yaml
+        - Duration in minutes: [from form]
+        - Recurring meeting: [true/false based on meeting type]
+        - Call series: [from form if recurring]
+        - Occurrence rate: [from form if recurring]
+        - Already a Zoom meeting ID: [from checkbox]
+        - Already on Ethereum Calendar: [from checkbox]
+        - Need YouTube stream links: [from checkbox]
+        - Display zoom link in invite: [from checkbox]
+        ``` 
