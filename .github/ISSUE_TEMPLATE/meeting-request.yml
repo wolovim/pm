@@ -1,6 +1,6 @@
 name: Create a Meeting
 description: Create a new meeting (recurring or one-time)
-title: "call name | call # | call date"
+title: "<call name> <call #>, <call date>"
 labels: ["meeting"]
 assignees: []
 
@@ -9,16 +9,13 @@ body:
     attributes:
       value: |
         e.g. "All Core Devs - Consensus (ACDC) #161, July 24 2025"
-        Use this form to create a new meeting. This can be used for both recurring and one-time meetings.
-        
-        **Note:** The zoom link will be sent to the facilitator via email.
 
   - type: input
     id: meeting_date
     attributes:
       label: Meeting Date and Time (UTC)
-      description: Date and time in UTC format with link to savvytime.com or timeanddate.com
-      placeholder: "Jan 16, 2025, 14:00 UTC"
+      description: Date and time in UTC format with link to notime.zone or savvytime.com
+      placeholder: "[Jul 24, 2025, 14:00 UTC](https://notime.zone/OUuMIFzwCmaTE)"
     validations:
       required: true
 
@@ -31,7 +28,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: facilitator_emails
     attributes:
       label: Facilitator Emails
