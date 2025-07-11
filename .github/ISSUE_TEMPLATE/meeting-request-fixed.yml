@@ -1,4 +1,4 @@
-name: Meeting Request
+name: Meeting Request Fixed
 description: Create a new meeting request (recurring or one-time)
 title: "Meeting Request Fixed"
 labels: ["meeting"]
