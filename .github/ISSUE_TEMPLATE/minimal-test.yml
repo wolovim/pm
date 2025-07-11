@@ -1,0 +1,15 @@
+name: Minimal Test
+description: A minimal test form
+title: "Minimal Test"
+labels: ["test"]
+assignees: []
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Enter a title
+      placeholder: "Enter title here"
+    validations:
+      required: true 
