@@ -1,0 +1,121 @@
+name: Protocol Call (Automated)
+description: Create a new protocol call (recurring or one-time) with automated Zoom, calendar, and YouTube live stream setup.
+title: "<call name> <call #>, <call date>"
+labels: ["automated-call"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        e.g. "All Core Devs - Consensus (ACDC) #161, July 24 2025"
+
+  - type: input
+    id: meeting_date
+    attributes:
+      label: Meeting Date and Time (UTC)
+      description: "[Format important!] Date and time in UTC format with link to https://notime.zone or https://savvytime.com/converter/utc"
+      placeholder: "[Jul 24, 2025, 14:00 UTC](https://notime.zone/OUuMIFzwCmaTE)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+      description: List the agenda items for this meeting
+      placeholder: "- Agenda point 1\n- Agenda point 2\n- Agenda point n"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 🤖 Bot Config
+
+        The following fields configure how the meeting automation bot should handle this meeting.
+
+  - type: dropdown
+    id: meeting_type
+    attributes:
+      label: Meeting Type
+      description: Is this a recurring or one-time meeting?
+      options:
+        - "recurring"
+        - "one-time"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: call_series
+    attributes:
+      label: Call Series (Recurring meetings only)
+      description: Which call series does this meeting belong to? This helps organize recurring meetings and puts them in the correct YouTube playlist.
+      options:
+        - "acde"
+        - "acdc"
+        - "acdt"
+        - "l2interop"
+        - "rpc"
+        - "stateless"
+        - "epbs"
+        - "maxeb"
+        - "focil"
+        - "simulate"
+        - "ethproofs"
+        - "beam"
+        - "other"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: duration_minutes
+    attributes:
+      label: Duration (minutes)
+      description: How long will this meeting last? (Used for calendar event duration)
+      options:
+        - "30"
+        - "45"
+        - "60"
+        - "90"
+        - "120"
+        - "other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: occurrence_rate
+    attributes:
+      label: Occurrence Rate (Recurring meetings only)
+      description: How often does this recurring meeting occur?
+      options:
+        - "weekly"
+        - "bi-weekly"
+        - "monthly"
+        - "other"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: meeting_options
+    attributes:
+      label: Meeting Options
+      description: Configure additional options for this meeting
+      options:
+        - label: "Already have a Zoom meeting ID (bot will not create a new one)"
+          required: false
+        - label: "Already on Ethereum Calendar (bot will not create a calendar event)"
+          required: false
+        - label: "Create YouTube live stream link"
+          required: false
+        - label: "Add Zoom link to calendar invite"
+          required: false
+
+  - type: input
+    id: facilitator_emails
+    attributes:
+      label: Facilitator Emails (optional)
+      description: Comma-separated list where Zoom link will be sent.
+      placeholder: "facilitator1@example.com, facilitator2@example.com"
+    validations:
+      required: false
