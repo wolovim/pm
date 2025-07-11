@@ -110,7 +110,6 @@ body:
       required: false
 
   - type: checkboxes
-    id: meeting_options
     attributes:
       label: Meeting Options
       description: Configure additional options for this meeting
