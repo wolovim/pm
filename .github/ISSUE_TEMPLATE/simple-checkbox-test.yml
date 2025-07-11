@@ -1,0 +1,23 @@
+name: Simple Checkbox Test
+description: Test with one simple checkbox
+title: "Simple Checkbox Test"
+labels: ["test"]
+assignees: []
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Enter a title
+      placeholder: "Enter title here"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Test Checkbox
+      description: This is a test checkbox
+      options:
+        - label: "Test option"
+          required: false 
