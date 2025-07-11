@@ -1,0 +1,51 @@
+name: Meeting Request Test 1
+description: Test without value attribute
+title: "Meeting Request Test"
+labels: ["meeting"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to create a new meeting request. This can be used for both recurring and one-time meetings.
+        
+        **Note:** The zoom link will be sent to the facilitator via email.
+
+  - type: input
+    id: meeting_title
+    attributes:
+      label: Meeting Title
+      description: Full meeting title (e.g., "All Core Devs - Execution (ACDE) #206, February 27, 2025")
+      placeholder: "All Core Devs - Execution (ACDE) #206, February 27, 2025"
+    validations:
+      required: true
+
+  - type: input
+    id: meeting_date
+    attributes:
+      label: Meeting Date and Time (UTC)
+      description: Date and time in UTC format with link to savvytime.com or timeanddate.com
+      placeholder: "Jan 16, 2025, 14:00 UTC"
+    validations:
+      required: true
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+      description: List the agenda items for this meeting
+      placeholder: "Agenda point 1, Agenda point 2, Agenda point n"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: meeting_type
+    attributes:
+      label: Meeting Type
+      description: Is this a recurring or one-time meeting?
+      options:
+        - "One-time meeting"
+        - "Recurring meeting"
+    validations:
+      required: true 
