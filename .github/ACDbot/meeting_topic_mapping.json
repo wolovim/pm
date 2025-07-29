@@ -13,7 +13,7 @@
         "start_time": "2025-04-24T14:00:00Z",
         "duration": 90,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 1,
@@ -35,7 +35,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -56,7 +56,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -78,7 +78,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -100,7 +100,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -122,7 +122,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -144,7 +144,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -166,7 +166,11 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
+<<<<<<< HEAD
         "Youtube_upload_processed": false,
+=======
+        "youtube_upload_processed": false,
+>>>>>>> 3bb01c7 (bot: v2)
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -199,7 +203,7 @@
         "start_time": "2025-04-17T14:00:00Z",
         "duration": 90,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -214,7 +218,7 @@
         "start_time": "2025-05-01T14:00:00Z",
         "duration": 90,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 1,
@@ -235,7 +239,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -257,7 +261,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -279,7 +283,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -301,7 +305,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -323,7 +327,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -345,7 +349,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -376,7 +380,7 @@
         "start_time": "2025-04-14T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 8,
@@ -409,7 +413,7 @@
         "start_time": "2025-04-28T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -430,7 +434,7 @@
         "start_time": "2025-05-05T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -451,7 +455,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -473,7 +477,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -495,7 +499,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -517,7 +521,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -539,7 +543,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -561,7 +565,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -583,7 +587,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -605,7 +609,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -627,7 +631,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -649,7 +653,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -671,7 +675,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -683,8 +687,7 @@
             "scheduled_time": "2025-07-28T14:00:00.000Z"
           }
         ],
-<<<<<<< HEAD
-        "occurrence_number": 15
+        "occurrence_number": 14
       },
       {
         "issue_number": 1648,
@@ -694,22 +697,19 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
-        "transcript_processed": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
         "telegram_message_id": 262,
-        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams_posted_to_discourse": true,
         "youtube_streams": [
           {
             "stream_url": "https://youtube.com/watch?v=0yLzqq5MGAs",
             "scheduled_time": "2025-08-04T14:00:00.000Z"
           }
         ],
-        "occurrence_number": 16
-=======
-        "occurrence_number": 14
->>>>>>> da67011 (overhaul mapping structure + new meeting template)
+        "occurrence_number": 15
       }
     ],
     "uuid": "VSEv1YKSToeM9+peGbhxDQ==",
@@ -730,7 +730,7 @@
         "duration": 60,
         "issue_number": 1312,
         "meeting_id": "88175022289",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 41,
@@ -745,7 +745,7 @@
         "start_time": "2025-04-03T15:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 7,
@@ -761,7 +761,7 @@
         "start_time": "2025-04-30T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -784,7 +784,7 @@
         "duration": 60,
         "issue_number": 1446,
         "meeting_id": "89498939501",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -802,7 +802,7 @@
         "start_time": "2025-05-02T14:00:00Z",
         "duration": 60,
         "zoom_link": "https://ethereumfoundation.zoom.us/j/86109593250?pwd=wteKeMHo4dEicU1IM7CaOIAyX1OW7z.1",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 5,
@@ -817,7 +817,7 @@
             "start_time": "2025-05-02T14:00:00Z",
             "duration": 60,
             "skip_youtube_upload": null,
-            "Youtube_upload_processed": false,
+            "youtube_upload_processed": false,
             "transcript_processed": false,
             "upload_attempt_count": 0,
             "transcript_attempt_count": 0,
@@ -837,7 +837,7 @@
         "issue_number": 1448,
         "meeting_id": "85985455392",
         "zoom_link": "https://ethereumfoundation.zoom.us/j/85985455392?pwd=erkXoJfo90oIcoImtXx3BCRnSb3IyU.1",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 7,
@@ -846,7 +846,7 @@
       }
     ]
   },
-	"ethproofs": {
+  "ethproofs": {
     "call_series": "ethproofs",
     "discourse_topic_id": 23456,
     "issue_title": "Ethproofs call #1 (team intros, new features, roadmap, Q&A) | April 25, 2025",
@@ -857,7 +857,7 @@
     "zoom_link": "https://ethereumfoundation.zoom.us/j/84778626260?pwd=uMBWNv7EYw4Tz3Av1bXlwT3NacBQgN.1",
     "is_recurring": true,
     "occurrence_rate": "other",
-    "Youtube_upload_processed": false,
+    "youtube_upload_processed": false,
     "transcript_processed": false,
     "upload_attempt_count": 0,
     "transcript_attempt_count": 0,
@@ -872,7 +872,7 @@
         "start_time": "2025-04-25T14:00:00Z",
         "duration": 120,
         "skip_youtube_upload": null,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -883,7 +883,7 @@
     ],
     "calendar_event_id": "heb3frmm6e6auec2udh1jfod74"
   },
-	"peerdas": {
+  "peerdas": {
     "call_series": "peerdas",
     "meeting_id": "82523885094",
     "calendar_event_id": "r7koct0g70985ilcgbeq37c5hc",
@@ -898,7 +898,7 @@
         "duration": 60,
         "issue_number": 1441,
         "meeting_id": "82243310118",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 4,
@@ -920,7 +920,7 @@
         "start_time": "2025-04-22T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -936,7 +936,7 @@
         "start_time": "2025-05-06T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -947,7 +947,7 @@
       }
     ]
   },
-	"evmmax": {
+  "evmmax": {
     "call_series": "evmmax",
     "is_recurring": true,
     "occurrence_rate": "none",
@@ -960,7 +960,7 @@
         "duration": 90,
         "issue_number": 1469,
         "meeting_id": "88182008145",
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -972,7 +972,7 @@
       }
     ]
   },
-	"rollcall": {
+  "rollcall": {
     "call_series": "rollcall",
     "meeting_id": "85718532657",
     "is_recurring": true,
@@ -987,7 +987,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1003,7 +1003,7 @@
       }
     ]
   },
-	"allwalletdevs": {
+  "allwalletdevs": {
     "call_series": "allwalletdevs",
     "meeting_id": "82227938777",
     "is_recurring": true,
@@ -1019,7 +1019,7 @@
         "start_time": "2025-04-16T17:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 10,
@@ -1037,7 +1037,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1054,7 +1054,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1071,7 +1071,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1087,7 +1087,7 @@
       }
     ]
   },
-	"eipip": {
+  "eipip": {
     "call_series": "eipip",
     "meeting_id": "placeholder-skipped-1483",
     "is_recurring": true,
@@ -1101,7 +1101,7 @@
         "start_time": "2025-05-21T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1117,7 +1117,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1134,7 +1134,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1151,7 +1151,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1162,7 +1162,7 @@
       }
     ]
   },
-	"ethsimulate": {
+  "ethsimulate": {
     "meeting_id": "87198090010",
     "is_recurring": true,
     "occurrence_rate": "weekly",
@@ -1178,7 +1178,7 @@
         "start_time": "2025-04-21T12:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": false,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1195,7 +1195,7 @@
         "start_time": "2025-05-05T12:00:00Z",
         "duration": 60,
         "skip_youtube_upload": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1220,7 +1220,7 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1238,7 +1238,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1255,7 +1255,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1272,7 +1272,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1289,7 +1289,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1306,7 +1306,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1323,7 +1323,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1340,7 +1340,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1357,7 +1357,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1368,8 +1368,8 @@
       }
     ]
   },
-	"evmresourcepricing": {
-    "call_series": "evmresourcepricing",
+  "resourcepricing": {
+    "call_series": "resourcepricing",
     "meeting_id": "89586034677",
     "is_recurring": false,
     "occurrence_rate": "none",
@@ -1385,7 +1385,7 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
@@ -1396,7 +1396,7 @@
       }
     ]
   },
-	"portal": {
+  "portal": {
     "call_series": "portal",
     "meeting_id": "83171713683",
     "is_recurring": true,
@@ -1410,7 +1410,7 @@
         "start_time": "2025-05-05T15:45:00Z",
         "duration": 30,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1426,7 +1426,7 @@
         "start_time": "2025-05-12T16:30:00Z",
         "duration": 30,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1442,7 +1442,7 @@
         "start_time": "2025-06-20T12:30:00Z",
         "duration": 30,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1452,7 +1452,7 @@
       }
     ]
   },
-	"protocolresearch": {
+  "protocolresearch": {
     "call_series": "protocolresearch",
     "meeting_id": "placeholder-research-call",
     "is_recurring": true,
@@ -1467,7 +1467,7 @@
         "duration": 90,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1477,7 +1477,7 @@
       }
     ]
   },
-	"focil": {
+  "focil": {
     "call_series": "focil",
     "is_recurring": true,
     "occurrence_rate": "bi-weekly",
@@ -1493,7 +1493,7 @@
         "start_time": "2025-05-06T14:00:00Z",
         "duration": 60,
         "skip_youtube_upload": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1514,7 +1514,7 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1531,7 +1531,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": true,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1548,7 +1548,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1565,7 +1565,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1573,10 +1573,25 @@
         "youtube_streams_posted_to_discourse": false,
         "youtube_streams": null,
         "occurrence_number": 5
+      },
+      {
+        "issue_number": 1646,
+        "issue_title": "FOCIL Breakout #16, July 29th, 2025, 14:00 UTC",
+        "discourse_topic_id": 24942,
+        "start_time": "2025-07-29T14:00:00Z",
+        "duration": 60,
+        "skip_youtube_upload": true,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": 259,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 1
       }
     ]
   },
-	"rpcstandards": {
+  "rpcstandards": {
     "is_recurring": true,
     "occurrence_rate": "bi-weekly",
     "call_series": "rpcstandards",
@@ -1590,7 +1605,7 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1601,7 +1616,7 @@
       }
     ]
   },
-	"eipeditingofficehour": {
+  "eipeditingofficehour": {
     "call_series": "eipeditingofficehour",
     "is_recurring": true,
     "occurrence_rate": "weekly",
@@ -1615,7 +1630,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1632,7 +1647,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1649,7 +1664,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1666,7 +1681,7 @@
         "duration": 60,
         "skip_youtube_upload": true,
         "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
+        "youtube_upload_processed": false,
         "transcript_processed": false,
         "upload_attempt_count": 0,
         "transcript_attempt_count": 0,
@@ -1675,38 +1690,6 @@
         "youtube_streams": null,
         "occurrence_number": 4
       }
-<<<<<<< HEAD
-    ],
-    "is_recurring": true,
-    "occurrence_rate": "weekly",
-    "call_series": "eip editing office hour",
-    "meeting_id": "placeholder-skipped-1596"
-  },
-  "placeholder-time-error-1646": {
-    "occurrences": [
-      {
-        "issue_number": 1646,
-        "issue_title": "FOCIL Breakout #16, July 29th, 2025, 14:00 UTC",
-        "discourse_topic_id": "placeholder-duplicate-1646",
-        "start_time": null,
-        "duration": null,
-        "skip_youtube_upload": true,
-        "skip_transcript_processing": true,
-        "Youtube_upload_processed": false,
-        "transcript_processed": false,
-        "upload_attempt_count": 0,
-        "transcript_attempt_count": 0,
-        "telegram_message_id": 259,
-        "youtube_streams_posted_to_discourse": false,
-        "youtube_streams": null,
-        "occurrence_number": 1
-      }
-    ],
-    "is_recurring": true,
-    "occurrence_rate": "bi-weekly",
-    "call_series": "focil breakout",
-    "meeting_id": "placeholder-time-error-1646"
-=======
     ]
   },
   "one-off": {
@@ -1717,7 +1700,7 @@
       "duration": 60,
       "issue_number": 1337,
       "meeting_id": "89880194464",
-      "Youtube_upload_processed": true,
+      "youtube_upload_processed": true,
       "transcript_processed": true,
       "upload_attempt_count": 1,
       "transcript_attempt_count": 0,
@@ -1733,6 +1716,5 @@
         }
       ]
     }
->>>>>>> da67011 (overhaul mapping structure + new meeting template)
   }
 }
