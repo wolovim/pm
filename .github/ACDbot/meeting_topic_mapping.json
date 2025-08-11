@@ -381,6 +381,22 @@
           }
         ],
         "occurrence_number": 8
+      },
+      {
+        "issue_number": 20,
+        "issue_title": "All Core Devs - Execution (ACDE) #210, April 24, 2025",
+        "start_time": "2026-04-14T14:00:00Z",
+        "duration": 60,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 9
       }
     ],
     "uuid": "d75yTKdtQVSo78I9Xf/T7Q=="
